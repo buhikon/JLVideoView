@@ -1,0 +1,6 @@
+framework module JLVideoView {
+  umbrella header "JLVideoView-umbrella.h"
+
+  export *
+  module * { export * }
+}

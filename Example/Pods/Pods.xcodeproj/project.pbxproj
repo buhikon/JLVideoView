@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278BD6A642C30A8AB841820FEFF0A781 /* Pods-JLVideoView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C3C054AEE027CF12D2EB76075AC925 /* Pods-JLVideoView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291F5D46500C92B177080CFFB66C8EE5 /* Pods-JLVideoView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7305C9010378FDF1CC0616C136B34AFF /* Pods-JLVideoView_Example-dummy.m */; };
+		3967A64F109DC5C410B7E89FE79961FF /* Pods-JLVideoView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8722474AD704101529E95790DC12310 /* Pods-JLVideoView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC5A45B03D83468974F8E02DCE1E595 /* JLVideoView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3251DF45C7FE2DAF7B247F2E4638C4 /* JLVideoView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E2B1E5753E60CDAEAEE8416AF1AA30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5DF745305F0B4CFADE848F9CB6E29D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		649DD92E1CD1DC760090D996 /* JLVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DD92D1CD1DC760090D996 /* JLVideoView.swift */; };
+		BE1AB8C494C983A24D33DDD125D60983 /* JLVideoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE5906A166FF5854D04CFFC8CDD4A0 /* JLVideoView-dummy.m */; };
+		C0B71C3B55831C2840DFF800AE996CCB /* Pods-JLVideoView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343107201E1227F9E426E13D8F7D0DC /* Pods-JLVideoView_Tests-dummy.m */; };
+		D7AE9445D6BFFF5DA7BA2818E1D9D3D7 /* JLVideoView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBC5203F2373F7B83F104B1FF12369 /* JLVideoView.bundle */; };
+		EFA7E3A69786982D294190879CF02435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DFCA30383FFCE11F4358FF28B6AD81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811CDF580AA09A3147D50CBB0BDDFA9D;
+			remoteInfo = "JLVideoView-JLVideoView";
+		};
+		7990020683C929793D0594D6D12F467D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ED2A1438AAD195360B78A40A8A1F5;
+			remoteInfo = JLVideoView;
+		};
+		C689804795F6CA858F8791BBD0D78A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ED2A1438AAD195360B78A40A8A1F5;
+			remoteInfo = JLVideoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0406D78FE409D579AF2B48302C9A3EF0 /* Pods-JLVideoView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLVideoView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0488F0B6674AAFB65D57B39967BF629B /* Pods-JLVideoView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLVideoView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08B1F65E72535C9AB09BC7FE290D93EB /* Pods-JLVideoView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLVideoView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1B3251DF45C7FE2DAF7B247F2E4638C4 /* JLVideoView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLVideoView-umbrella.h"; sourceTree = "<group>"; };
+		1FC3FFED605EC0C42685435FAD100CB8 /* Pods-JLVideoView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLVideoView_Example.modulemap"; sourceTree = "<group>"; };
+		22C3C054AEE027CF12D2EB76075AC925 /* Pods-JLVideoView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLVideoView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24B0EBD173FBD0DD9B13C35841C03E5F /* Pods-JLVideoView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLVideoView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FEBC5203F2373F7B83F104B1FF12369 /* JLVideoView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLVideoView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLVideoView.xcconfig; sourceTree = "<group>"; };
+		373FE0A2919F5234567B41AB60B3EBA7 /* JLVideoView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLVideoView-prefix.pch"; sourceTree = "<group>"; };
+		3ACC2E2C0191D38016001615E5342AEA /* Pods-JLVideoView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLVideoView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCE5906A166FF5854D04CFFC8CDD4A0 /* JLVideoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLVideoView-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4074A2991C2A53E2DA61112E361C7251 /* Pods-JLVideoView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLVideoView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		49D0306BF0259A246F19F3D9D29862A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E34D4432D571F2A528CF8B3781DABCC /* Pods-JLVideoView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLVideoView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		649DD92D1CD1DC760090D996 /* JLVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLVideoView.swift; sourceTree = "<group>"; };
+		6909A72BB6B9A9D274DCCBEB8E4A51EF /* Pods-JLVideoView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLVideoView_Tests-resources.sh"; sourceTree = "<group>"; };
+		72072A4960A4BEDCE8A79B9B1DBF278A /* Pods_JLVideoView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLVideoView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7305C9010378FDF1CC0616C136B34AFF /* Pods-JLVideoView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLVideoView_Example-dummy.m"; sourceTree = "<group>"; };
+		8B95B7AAFA56F89C8E8CED8300A12CD4 /* Pods_JLVideoView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLVideoView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9287474FEBF7CD3858EDD0835F8415BB /* Pods-JLVideoView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLVideoView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9343107201E1227F9E426E13D8F7D0DC /* Pods-JLVideoView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLVideoView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A12A0A8FA2E77CDFEC0C2AA55834A868 /* JLVideoView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLVideoView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B099780775BB95DA48D5D82C4BFC2A5D /* Pods-JLVideoView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLVideoView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B11316E1E268B0741BBE0B31FA334861 /* Pods-JLVideoView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLVideoView_Tests.modulemap"; sourceTree = "<group>"; };
+		B7271339A10E1D8216909E3171F205D1 /* Pods-JLVideoView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLVideoView_Example-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4D882C93FDE958D84422C288FF3A2F7 /* JLVideoView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLVideoView.modulemap; sourceTree = "<group>"; };
+		C8722474AD704101529E95790DC12310 /* Pods-JLVideoView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLVideoView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E2A68960C3EFFF96F94D410942EE4497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59C8C66C7F9CFF47B7493255A52E0AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDBDDD6B73FE2368313267EFB8C7291 /* Pods-JLVideoView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLVideoView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51DADAFC53157DCF542A155A5287F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA7E3A69786982D294190879CF02435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FFE329B96528A5E82DDDAE464AB378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E2B1E5753E60CDAEAEE8416AF1AA30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC1388521A5C3D6AF3803D0FF0919B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94248688A95B0AAFD854E78A29566B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF745305F0B4CFADE848F9CB6E29D61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C5AD43B41403291B93C2ED7F36967528 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FED16C214041AAA67110C6037F311045 /* Products */,
+				A1305CF5532109A88197735E6F7AD9E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83769D118FD80FFC197631EDC5C409B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49D0306BF0259A246F19F3D9D29862A6 /* Info.plist */,
+				C4D882C93FDE958D84422C288FF3A2F7 /* JLVideoView.modulemap */,
+				327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */,
+				3CCE5906A166FF5854D04CFFC8CDD4A0 /* JLVideoView-dummy.m */,
+				373FE0A2919F5234567B41AB60B3EBA7 /* JLVideoView-prefix.pch */,
+				1B3251DF45C7FE2DAF7B247F2E4638C4 /* JLVideoView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLVideoView";
+			sourceTree = "<group>";
+		};
+		A1305CF5532109A88197735E6F7AD9E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7A52697B89E53DFD67AE6BB03B656 /* Pods-JLVideoView_Example */,
+				BB8EDC01769216F664F1412D4229E572 /* Pods-JLVideoView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1DEA0765C2A13D973A9E2163DF56922 /* JLVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				C8DFFE7DE7AE53F5D78E67B65DBE40C0 /* JLVideoView */,
+				83769D118FD80FFC197631EDC5C409B3 /* Support Files */,
+			);
+			name = JLVideoView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB8EDC01769216F664F1412D4229E572 /* Pods-JLVideoView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E59C8C66C7F9CFF47B7493255A52E0AC /* Info.plist */,
+				B11316E1E268B0741BBE0B31FA334861 /* Pods-JLVideoView_Tests.modulemap */,
+				9287474FEBF7CD3858EDD0835F8415BB /* Pods-JLVideoView_Tests-acknowledgements.markdown */,
+				0406D78FE409D579AF2B48302C9A3EF0 /* Pods-JLVideoView_Tests-acknowledgements.plist */,
+				9343107201E1227F9E426E13D8F7D0DC /* Pods-JLVideoView_Tests-dummy.m */,
+				08B1F65E72535C9AB09BC7FE290D93EB /* Pods-JLVideoView_Tests-frameworks.sh */,
+				6909A72BB6B9A9D274DCCBEB8E4A51EF /* Pods-JLVideoView_Tests-resources.sh */,
+				22C3C054AEE027CF12D2EB76075AC925 /* Pods-JLVideoView_Tests-umbrella.h */,
+				3ACC2E2C0191D38016001615E5342AEA /* Pods-JLVideoView_Tests.debug.xcconfig */,
+				4074A2991C2A53E2DA61112E361C7251 /* Pods-JLVideoView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLVideoView_Tests";
+			path = "Target Support Files/Pods-JLVideoView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5AD43B41403291B93C2ED7F36967528 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1DEA0765C2A13D973A9E2163DF56922 /* JLVideoView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8DFFE7DE7AE53F5D78E67B65DBE40C0 /* JLVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30C80668499B49F21BAF7FDA29CDD /* Classes */,
+			);
+			path = JLVideoView;
+			sourceTree = "<group>";
+		};
+		F2C7A52697B89E53DFD67AE6BB03B656 /* Pods-JLVideoView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E2A68960C3EFFF96F94D410942EE4497 /* Info.plist */,
+				1FC3FFED605EC0C42685435FAD100CB8 /* Pods-JLVideoView_Example.modulemap */,
+				B099780775BB95DA48D5D82C4BFC2A5D /* Pods-JLVideoView_Example-acknowledgements.markdown */,
+				24B0EBD173FBD0DD9B13C35841C03E5F /* Pods-JLVideoView_Example-acknowledgements.plist */,
+				7305C9010378FDF1CC0616C136B34AFF /* Pods-JLVideoView_Example-dummy.m */,
+				4E34D4432D571F2A528CF8B3781DABCC /* Pods-JLVideoView_Example-frameworks.sh */,
+				B7271339A10E1D8216909E3171F205D1 /* Pods-JLVideoView_Example-resources.sh */,
+				C8722474AD704101529E95790DC12310 /* Pods-JLVideoView_Example-umbrella.h */,
+				0488F0B6674AAFB65D57B39967BF629B /* Pods-JLVideoView_Example.debug.xcconfig */,
+				EEDBDDD6B73FE2368313267EFB8C7291 /* Pods-JLVideoView_Example.release.xcconfig */,
+			);
+			name = "Pods-JLVideoView_Example";
+			path = "Target Support Files/Pods-JLVideoView_Example";
+			sourceTree = "<group>";
+		};
+		F5C30C80668499B49F21BAF7FDA29CDD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				649DD92D1CD1DC760090D996 /* JLVideoView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FED16C214041AAA67110C6037F311045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBC5203F2373F7B83F104B1FF12369 /* JLVideoView.bundle */,
+				A12A0A8FA2E77CDFEC0C2AA55834A868 /* JLVideoView.framework */,
+				72072A4960A4BEDCE8A79B9B1DBF278A /* Pods_JLVideoView_Example.framework */,
+				8B95B7AAFA56F89C8E8CED8300A12CD4 /* Pods_JLVideoView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DC58EEEDDF5ED56F20B3635DA784E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3967A64F109DC5C410B7E89FE79961FF /* Pods-JLVideoView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2D94ED3309D8EDB7CA25661767D9BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC5A45B03D83468974F8E02DCE1E595 /* JLVideoView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2ADCB56E27AB41C88FC8607FA454FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278BD6A642C30A8AB841820FEFF0A781 /* Pods-JLVideoView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		811CDF580AA09A3147D50CBB0BDDFA9D /* JLVideoView-JLVideoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E51F4A5AD1DEE6C4ECF6CB70FA6BC4 /* Build configuration list for PBXNativeTarget "JLVideoView-JLVideoView" */;
+			buildPhases = (
+				F468EFC8DF759C81FEB7AE90DF74475D /* Sources */,
+				BAC1388521A5C3D6AF3803D0FF0919B4 /* Frameworks */,
+				64CE27B87C7AF60703F486C962ACBFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLVideoView-JLVideoView";
+			productName = "JLVideoView-JLVideoView";
+			productReference = 2FEBC5203F2373F7B83F104B1FF12369 /* JLVideoView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		940369C53D106BC7D7A6ABEB8E73B7A7 /* Pods-JLVideoView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673644A8DD59708B502BEE2D7FFFDB03 /* Build configuration list for PBXNativeTarget "Pods-JLVideoView_Tests" */;
+			buildPhases = (
+				8F0FCEE872A706C04DB1FA8DA89F87A2 /* Sources */,
+				51FFE329B96528A5E82DDDAE464AB378 /* Frameworks */,
+				FE2ADCB56E27AB41C88FC8607FA454FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53EBF6C052501C7DD057FE76EF0456A /* PBXTargetDependency */,
+			);
+			name = "Pods-JLVideoView_Tests";
+			productName = "Pods-JLVideoView_Tests";
+			productReference = 8B95B7AAFA56F89C8E8CED8300A12CD4 /* Pods_JLVideoView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99ED2A1438AAD195360B78A40A8A1F5 /* JLVideoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BD488F19C2038A41BF8448A43EC383 /* Build configuration list for PBXNativeTarget "JLVideoView" */;
+			buildPhases = (
+				76F05CE282E185566B127AF11167EECE /* Sources */,
+				E94248688A95B0AAFD854E78A29566B3 /* Frameworks */,
+				A472E13DCEE0A44344C300973CD1F80F /* Resources */,
+				AE2D94ED3309D8EDB7CA25661767D9BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119C9B031F833D226F5E8D67E29E0F28 /* PBXTargetDependency */,
+			);
+			name = JLVideoView;
+			productName = JLVideoView;
+			productReference = A12A0A8FA2E77CDFEC0C2AA55834A868 /* JLVideoView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D3D49A5DB61FBA5241C1B9BDBF3B0F /* Pods-JLVideoView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F942169FA0126A29CEE4E63B3742B4 /* Build configuration list for PBXNativeTarget "Pods-JLVideoView_Example" */;
+			buildPhases = (
+				8A504FE708AE10FF73A4BFAE282F4D93 /* Sources */,
+				51DADAFC53157DCF542A155A5287F884 /* Frameworks */,
+				2DC58EEEDDF5ED56F20B3635DA784E3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3CD138B6F82A36D7C7CFB0EA905D9D /* PBXTargetDependency */,
+			);
+			name = "Pods-JLVideoView_Example";
+			productName = "Pods-JLVideoView_Example";
+			productReference = 72072A4960A4BEDCE8A79B9B1DBF278A /* Pods_JLVideoView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FED16C214041AAA67110C6037F311045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99ED2A1438AAD195360B78A40A8A1F5 /* JLVideoView */,
+				811CDF580AA09A3147D50CBB0BDDFA9D /* JLVideoView-JLVideoView */,
+				F7D3D49A5DB61FBA5241C1B9BDBF3B0F /* Pods-JLVideoView_Example */,
+				940369C53D106BC7D7A6ABEB8E73B7A7 /* Pods-JLVideoView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CE27B87C7AF60703F486C962ACBFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A472E13DCEE0A44344C300973CD1F80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AE9445D6BFFF5DA7BA2818E1D9D3D7 /* JLVideoView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F05CE282E185566B127AF11167EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1AB8C494C983A24D33DDD125D60983 /* JLVideoView-dummy.m in Sources */,
+				649DD92E1CD1DC760090D996 /* JLVideoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A504FE708AE10FF73A4BFAE282F4D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291F5D46500C92B177080CFFB66C8EE5 /* Pods-JLVideoView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0FCEE872A706C04DB1FA8DA89F87A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B71C3B55831C2840DFF800AE996CCB /* Pods-JLVideoView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468EFC8DF759C81FEB7AE90DF74475D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		119C9B031F833D226F5E8D67E29E0F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JLVideoView-JLVideoView";
+			target = 811CDF580AA09A3147D50CBB0BDDFA9D /* JLVideoView-JLVideoView */;
+			targetProxy = 75DFCA30383FFCE11F4358FF28B6AD81 /* PBXContainerItemProxy */;
+		};
+		2C3CD138B6F82A36D7C7CFB0EA905D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLVideoView;
+			target = E99ED2A1438AAD195360B78A40A8A1F5 /* JLVideoView */;
+			targetProxy = 7990020683C929793D0594D6D12F467D /* PBXContainerItemProxy */;
+		};
+		A53EBF6C052501C7DD057FE76EF0456A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLVideoView;
+			target = E99ED2A1438AAD195360B78A40A8A1F5 /* JLVideoView */;
+			targetProxy = C689804795F6CA858F8791BBD0D78A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		054C61126DBD2E1A4DE6337E6237D8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4074A2991C2A53E2DA61112E361C7251 /* Pods-JLVideoView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLVideoView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLVideoView_Tests/Pods-JLVideoView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLVideoView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ABE1200546E864495C9875C5440FB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLVideoView/JLVideoView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLVideoView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLVideoView/JLVideoView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLVideoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D56B04468CAB03CBFB04B7E1A42F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JLVideoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2FC8B0910558353E749A04E58FB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLVideoView/JLVideoView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLVideoView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLVideoView/JLVideoView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLVideoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6428AE564227944F19A63F328BBAD197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDBDDD6B73FE2368313267EFB8C7291 /* Pods-JLVideoView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLVideoView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLVideoView_Example/Pods-JLVideoView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLVideoView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BFA5E31B5B455358B8AAFD8B29C520B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327D24737E51F111AC11AE2D36D1F975 /* JLVideoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JLVideoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7AE8664427BD95CCE5C4B5D70FD83B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACC2E2C0191D38016001615E5342AEA /* Pods-JLVideoView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLVideoView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLVideoView_Tests/Pods-JLVideoView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLVideoView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87148097C2B0F5F811127894D150D1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0488F0B6674AAFB65D57B39967BF629B /* Pods-JLVideoView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLVideoView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLVideoView_Example/Pods-JLVideoView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLVideoView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673644A8DD59708B502BEE2D7FFFDB03 /* Build configuration list for PBXNativeTarget "Pods-JLVideoView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE8664427BD95CCE5C4B5D70FD83B7B /* Debug */,
+				054C61126DBD2E1A4DE6337E6237D8E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E51F4A5AD1DEE6C4ECF6CB70FA6BC4 /* Build configuration list for PBXNativeTarget "JLVideoView-JLVideoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA5E31B5B455358B8AAFD8B29C520B /* Debug */,
+				0D56B04468CAB03CBFB04B7E1A42F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BD488F19C2038A41BF8448A43EC383 /* Build configuration list for PBXNativeTarget "JLVideoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABE1200546E864495C9875C5440FB83 /* Debug */,
+				4C2FC8B0910558353E749A04E58FB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F942169FA0126A29CEE4E63B3742B4 /* Build configuration list for PBXNativeTarget "Pods-JLVideoView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87148097C2B0F5F811127894D150D1C3 /* Debug */,
+				6428AE564227944F19A63F328BBAD197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

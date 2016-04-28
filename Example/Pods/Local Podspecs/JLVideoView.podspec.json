@@ -1,0 +1,24 @@
+{
+  "name": "JLVideoView",
+  "version": "0.1.0",
+  "summary": "A short description of JLVideoView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JLVideoView",
+  "license": "MIT",
+  "authors": {
+    "Joey L.": "slarinz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JLVideoView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JLVideoView/Classes/**/*",
+  "resource_bundles": {
+    "JLVideoView": [
+      "JLVideoView/Assets/*.png"
+    ]
+  }
+}

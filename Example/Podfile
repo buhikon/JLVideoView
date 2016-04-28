@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLVideoView_Example', :exclusive => true do
+  pod 'JLVideoView', :path => '../'
+end
+
+target 'JLVideoView_Tests', :exclusive => true do
+  pod 'JLVideoView', :path => '../'
+
+  
+end

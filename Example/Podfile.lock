@@ -1,0 +1,14 @@
+PODS:
+  - JLVideoView (0.1.0)
+
+DEPENDENCIES:
+  - JLVideoView (from `../`)
+
+EXTERNAL SOURCES:
+  JLVideoView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JLVideoView: 12cff2ac2a9ba6e787e8298e18496ef807509f90
+
+COCOAPODS: 0.39.0
