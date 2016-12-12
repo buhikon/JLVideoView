@@ -13,34 +13,34 @@ import UIKit
 import AVFoundation
 
 public enum ScalingMode: Int {
-    case AspectFit, AspectFill, Fill
+    case aspectFit, aspectFill, fill
 }
 
 @objc
 public protocol JLVideoViewDelegate {
-    func videoViewDidTap(videoView: JLVideoView) -> Void
+    func videoViewDidTap(_ videoView: JLVideoView) -> Void
 }
 
 
-public class JLVideoView: UIView {
+open class JLVideoView: UIView {
     
     // MARK: - public
     
     ///  scaling mode
-    public var scalingMode: ScalingMode = .AspectFit;
+    open var scalingMode: ScalingMode = .aspectFit;
     /// delegate
-    public weak var delegate: JLVideoViewDelegate?;
+    open weak var delegate: JLVideoViewDelegate?;
     ///  prevent other media playback stopping when start playing a resource
-    public var allowMixSoundWithOthers: Bool = false;
+    open var allowMixSoundWithOthers: Bool = false;
     
     /**
      play video with NSURL.
      
      - parameter URL: a resource URL, remote or local.
      */
-    public func playWithURL(URL: NSURL) -> Void {
+    open func playWithURL(_ URL: Foundation.URL) -> Void {
         // create a new player and play.
-        self.player = AVPlayer(URL: URL);
+        self.player = AVPlayer(url: URL);
         play();
     }
 
@@ -49,7 +49,7 @@ public class JLVideoView: UIView {
      
      - parameter player: AVPlayer
      */
-    public func playWithPlayer(player: AVPlayer) -> Void {
+    open func playWithPlayer(_ player: AVPlayer) -> Void {
         // create a new player and play.
         self.player = player;
         play();
@@ -58,14 +58,14 @@ public class JLVideoView: UIView {
     
     // MARK: - private
     
-    private(set) var player: AVPlayer? = nil;
-    private var tapRecognizer: UITapGestureRecognizer? = nil;
+    fileprivate(set) var player: AVPlayer? = nil;
+    fileprivate var tapRecognizer: UITapGestureRecognizer? = nil;
     
-    override public class func layerClass() -> AnyClass {
+    override open class var layerClass : AnyClass {
         return AVPlayerLayer.self;
     }
     
-    private func play() -> Void {
+    fileprivate func play() -> Void {
         if(self.player != nil) {
             (self.layer as! AVPlayerLayer).player = self.player
             (self.layer as! AVPlayerLayer).videoGravity = videoGravity()
@@ -92,15 +92,15 @@ public class JLVideoView: UIView {
         }
     }
     
-    private func videoGravity() -> String {
+    fileprivate func videoGravity() -> String {
         switch(self.scalingMode) {
-        case .AspectFit: return "AVLayerVideoGravityResizeAspect"
-        case .AspectFill: return "AVLayerVideoGravityResizeAspectFill"
-        case .Fill: return "AVLayerVideoGravityResize"
+        case .aspectFit: return "AVLayerVideoGravityResizeAspect"
+        case .aspectFill: return "AVLayerVideoGravityResizeAspectFill"
+        case .fill: return "AVLayerVideoGravityResize"
         }
     }
     
-    internal func tapGestureRecognizerFired(recognizer: UITapGestureRecognizer) -> Void {
+    internal func tapGestureRecognizerFired(_ recognizer: UITapGestureRecognizer) -> Void {
         if(self.delegate != nil) {
             self.delegate?.videoViewDidTap(self);
         }
